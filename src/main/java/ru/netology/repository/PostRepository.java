@@ -1,12 +1,11 @@
 package ru.netology.repository;
 
 import ru.netology.model.Post;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-// Stub
+
 public class PostRepository {
 
     private final List<Post> posts = new CopyOnWriteArrayList<>();
